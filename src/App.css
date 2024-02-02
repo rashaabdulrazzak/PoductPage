@@ -32,7 +32,36 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.p-panelmenu .p-panelmenu-panel {
+  margin-bottom: 1px;
+}
+
+.p-treetable .p-treetable-header {
+  background: white;
+  margin-bottom: 10px;
+
+}
+
+.p-menubar {
+  background-color: white;
+}
+
+.p-breadcrumb {
+  padding: 1.5rem;
+  border: none !important;
+}
+
+.p-panelmenu .p-panelmenu-header .p-panelmenu-header-content {
+  border: none !important;
+  background-color: white;
+}
+
+body {
+  background-color: #d3d0d0
 }
